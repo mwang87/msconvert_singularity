@@ -1,0 +1,5 @@
+Bootstrap: docker
+From: chambm/pwiz-skyline-i-agree-to-the-vendor-licenses
+
+%post
+    chown -R galaxy_docker /wineprefix64
